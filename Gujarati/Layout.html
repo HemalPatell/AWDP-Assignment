@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="Layout.css">
+    </head>
+    <body>
+        <div class="nav">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#contect">Contact</a>
+            </li>
+            <li>
+                <a href="#menu">Menu</a>
+            </li>
+        </ul>
+        </div>
+    <header class="head">
+        <img src="pic1.jpg" class="bg">
+        
+        <div class="h">
+        <div class="e">
+            <span class="h2">OPEN FROM 10AM TO 12PM</span>
+        </div>
+            </div>
+            <div class="flex">
+                <span class="sp">
+                    Mom's
+                    <br>
+                    Gujarati 
+                    <br>
+                    Thali
+                </span>
+                <p class="p">
+                    <a href="#menu" class="pa">Let Me See The Menu</a>
+                </p>
+            </div>
+    </header>
+    <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+        <div class="w3-content">
+        
+          <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
+          <div class="w3-row w3-center w3-border w3-border-dark-grey">
+            <a href="javascript:void(0)" onclick="openMenu(event, 'gujarati thali');" id="myLink">
+              <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Gujarati Thali</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'farsan');">
+              <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Farsan</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'sweet');">
+              <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Sweet & Drinks</div>
+            </a>
+          </div>
+      
+          <div id="gujarati thali" class="w3-container menu w3-padding-32 w3-white">
+            <h1><b>Full Thali</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹350</span></h1>
+            <p class="w3-text-grey">Daal,Rice,Shak,papad,kathol,Chhaash</p>
+            <hr>
+         
+            <h1><b>Kadhi-Khichadi</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹110</span></h1>
+            <p class="w3-text-grey">Khichadi And Kadhi</p>
+            <hr>
+            
+            <h1><b>Shbji</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹100</span></h1>
+            <p class="w3-text-grey">Aaloo Matar,Ringan Bharthu,Vagarelo Rotalo</p>
+            <hr>
+      
+            <h1><b>Bhaji</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹200</span></h1>
+            <p class="w3-text-grey">Pav Bhaji</p>
+            <hr>
+      
+            <h1><b>Rjavadi Khichadi</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹100</span></h1>
+            <p class="w3-text-grey">Kadhi,palak khichdi,rajavadi khichdi</p>
+            <hr>
+      
+            <h1><b>Dal Bhaat</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹110</span></h1>
+            <p class="w3-text-grey">Mag Bhaat,Chola Bhaat,Chana Bhaat</p>
+          </div>
+      
+          <div id="farsan" class="w3-container menu w3-padding-32 w3-white">
+            <h1><b>Khandvi</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">₹100</span></h1>
+            <p class="w3-text-grey">Special sauce,chatni</p>
+            <hr>
+         
+            <h1><b>Handavo</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹99</span></h1>
+            <p class="w3-text-grey">With Dahi</p>
+            <hr>
+            
+            <h1><b>Dhokala</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹99</span></h1>
+            <p class="w3-text-grey">With Dahi,Shaus,Chatani</p>
+            <hr>
+      
+            <h1><b>Fafda</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹200</span></h1>
+            <p class="w3-text-grey">With Jalebi,chatni,papaya</p>
+          </div>
+      
+      
+          <div id="sweet" class="w3-container menu w3-padding-32 w3-white">
+            <h1><b>Matho</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹200</span></h1>
+            <p class="w3-text-grey">Mando Flavore</p>
+            <hr>
+         
+            <h1><b>Ras</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹110</span></h1>
+            <p class="w3-text-grey">Mango,Graps,Watermalon</p>
+            <hr>
+            
+            <h1><b>Basundi</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹90</span></h1>
+            <p class="w3-text-grey">with Fruits</p>
+            <hr>
+            
+            <h1><b> Daily Changable Sweet</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹150</span></h1>
+            <p class="w3-text-grey">Shiro,lapsi,Mohanthal,Halvo etc</p>
+          </div><br>
+      
+        </div>
+      </div>
+      
+      <!-- About Container -->
+      <div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+        <div class="w3-content" id="about">
+          <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+          <p> lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ilorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p><strong>The Chef?</strong> Mrs.herself<img src="Shaif.jpeg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
+          <p>We are proud of our interiors.</p>
+          <img src="res.jpeg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+          <h1><b>Opening Hours</b></h1>
+          
+          <div class="w3-row">
+            <div class="w3-col s6">
+              <p>Mon & Tue CLOSED</p>
+              <p>Wednesday 10.00 - 24.00</p>
+              <p>Thursday 10:00 - 24:00</p>
+            </div>
+            <div class="w3-col s6">
+              <p>Friday 10:00 - 12:00</p>
+              <p>Saturday 10:00 - 23:00</p>
+              <p>Sunday Closed</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <!-- Image of location/map -->
+      <img src="map.jpeg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+      
+      <!-- Contact -->
+      <div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+        <div class="w3-content"id="contect">
+          <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+          <p>Find us at some address at some place or call us at 0123456879-123456</p>
+          <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+          <p class="w3-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+          <form action="/action_page.php" target="_blank">
+            <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+            <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+            <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+            <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+          </form>
+        </div>
+      </div>
+      
+      <!-- Footer -->
+     
+      
+      <script>
+      // Tabbed Menu
+      function openMenu(evt, menuName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("menu");
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+           tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+        }
+        document.getElementById(menuName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-red";
+      }
+      document.getElementById("myLink").click();
+      </script>
+      
+      </body>
+      </html>

@@ -1,0 +1,94 @@
+ body{
+                margin: 0px;
+                padding: 0px;
+            }
+            .nav{
+                border: none;
+                height: 50px;
+                background-color:  rgba(24, 24, 24, 0.3);
+                padding: 5px;
+                opacity: 0.99;
+            }
+            ul li{
+                float: left;
+                width: auto;
+                border: none;
+                display: block;
+            }
+            ul li a{
+                text-decoration: none;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                padding: 20px;
+                color: rgb(255, 255, 255);
+            }
+            ul li a:hover{
+                background-color: rgb(116, 116, 116);
+                padding: 20px;
+            }
+            .nav:hover{
+                background-color: black;
+            }
+            .bg{
+                background-image: url('pic1.jpg');
+                width: 100%;
+                margin-top: -60px;
+                left: 0px;
+                top: 0px;
+                z-index: -1;
+            }
+            .h{
+                display: flex;
+                font-size: 50px;
+                font-family: cursive;
+                flex-direction: column;
+                color: rgb(0, 0, 0);
+            }
+            .e{
+                background-color: black;
+                display: flex;
+                color: rgb(250, 250, 250);
+                margin-top: -40px;
+                width: 330px;
+                z-index: 1;
+                font-size: x-large;
+            } 
+            .flex{
+                display: flex;
+                align-items: center;
+                font-size: 60px;
+                text-align: center;
+                font-family: cursive;
+                flex-direction: column;
+                color: rgb(226, 224, 224);
+                margin-top: -500px;
+                margin-bottom: 0;
+            }
+            .pa{
+                border: 2px solid black;
+                padding: 6px;
+                background-color: black;
+                color: white;
+                text-decoration: none;
+                font-family: cursive;
+                font-size: 25px;
+            }
+            .pa:hover{
+                background-color: rgb(116, 116, 116);
+                color: black;
+            }
+            #Menu{
+                height: 500vh;
+                display: flex ;
+                
+            }
+            h1{
+                text-align: center;
+                margin-bottom: 65px;
+            }
+            body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90%;}
